@@ -1,0 +1,30 @@
+{
+  "name": "oasis-admin",
+  "version": "0.0.1",
+  "description": "OASIS admin",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html --global app",
+    "build": "parcel build index.html"
+  },
+  "author": "WenSun",
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/HermitSun/OASIS-admin"
+  },
+  "dependencies": {
+    "qiankun": "^2.0.11",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^3.0.0",
+    "@typescript-eslint/parser": "^3.0.0",
+    "eslint": "^7.1.0",
+    "eslint-plugin-prettier": "^3.1.3",
+    "parcel-bundler": "^1.12.4",
+    "prettier": "^2.0.5",
+    "typescript": "^3.9.3"
+  }
+}
