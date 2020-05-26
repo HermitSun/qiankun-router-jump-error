@@ -4,8 +4,12 @@
   "description": "OASIS admin",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel index.html --global app",
-    "build": "parcel build index.html"
+    "install:main": "npm install",
+    "start:main": "parcel index.html",
+    "install:vue": "cd vue && npm install",
+    "start:vue": "cd vue && npm run serve",
+    "install:vue2": "cd vue2 && npm install",
+    "start:vue2": "cd vue2 && npm run serve"
   },
   "author": "WenSun",
   "license": "MIT",
